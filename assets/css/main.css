@@ -2836,12 +2836,12 @@ input, select, textarea {
 			
 			.tiles article:nth-child(6n - 5):before {
 				background-color: #6fc3df;
-				background-color:#8B4513;
+				background-color:#333;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
 				background-color: #8d82c4;
-				background-color:#333;
+				background-color:#7E7A6F;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
