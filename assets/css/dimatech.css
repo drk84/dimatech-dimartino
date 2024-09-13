@@ -1,0 +1,21 @@
+#one article:nth-child(1), article:nth-child(2) {
+    min-height:40em;
+}
+#header{
+    background-color:#7E7A6F !important;
+}
+#banner{
+    background-color:#7E7A6F;
+}
+
+#two{
+    background-color:#7E7A6F;
+}
+
+#contact{
+    background-color:#333;
+}
+
+#footer{
+    background-color:#7E7A6F;
+}

@@ -2829,21 +2829,29 @@ input, select, textarea {
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
 				width: 60%;
 			}
-
+			/*
+			.tiles article:before{
+				background-color:#003366;
+			}*/
+			
 			.tiles article:nth-child(6n - 5):before {
 				background-color: #6fc3df;
+				background-color:#8B4513;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
 				background-color: #8d82c4;
+				background-color:#333;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
 				background-color: #ec8d81;
+				background-color:#2F4F4F;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
 				background-color: #e7b788;
+				background-color:#003366;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
