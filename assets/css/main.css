@@ -2752,7 +2752,7 @@ input, select, textarea {
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 50%;
+			width: 40%;
 		}
 
 			.tiles article .image {
@@ -2792,7 +2792,7 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.65;
+				opacity: 0.70;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -2827,12 +2827,8 @@ input, select, textarea {
 			}
 			
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 50%;
+				width: 60%;
 			}
-			/*
-			.tiles article:before{
-				background-color:#003366;
-			}*/
 			
 			.tiles article:nth-child(6n - 5):before {
 				background-color: #6fc3df;
