@@ -46,8 +46,14 @@ background-color:#003366 !important;
 nav{
     background-color:#2F4F4F !important;
 }
+
 #banner{
-    background-color:#7E7A6F;
+    background-image:none !important;
+    background-color:#2e3450 !important;
+}
+#banner::after{
+    background-color:#7E7A6F !important;
+    width:60%;
 }
 
 #two{
