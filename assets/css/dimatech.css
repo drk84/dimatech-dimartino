@@ -71,8 +71,8 @@ nav{
 /*Gallery*/
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
   }
   
   .work-item {
@@ -83,7 +83,7 @@ nav{
     width: 220px;
     height: 220px;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 8px;
   }
   .work-item img:hover {
     transform: scale(2);
@@ -95,11 +95,11 @@ nav{
     .grid-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-        gap: 20px;
+        gap: 5px;
     }
     .work-item img {
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
     }
 }
 
