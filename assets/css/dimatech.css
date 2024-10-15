@@ -67,3 +67,25 @@ nav{
 #footer{
     background-color:#2F4F4F;
 }
+
+/*Gallery*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .work-item {
+    text-align: center;
+  }
+  
+  .work-item img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .work-item img:hover {
+    transform: scale(2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
