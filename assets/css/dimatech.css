@@ -68,6 +68,12 @@ nav{
     background-color:#2F4F4F;
 }
 
+/*Lavori*/
+.lavori img{
+ 
+    max-height:500px !important;
+    object-fit:cover;
+}
 /*Gallery*/
 .grid-container {
     display: grid;
