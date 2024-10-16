@@ -147,11 +147,11 @@ label{
 /*Tiles Home Page */
 
 #one article:nth-child(2n)::before{ 
-    background-color: transparent !important;
     
+    background: rgba(0, 0, 0, 0.3) !important;
 }
-   #one article:nth-child(2n+1)::before {
-   background-color: transparent !important;
+#one article:nth-child(2n+1)::before {
+   background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 
@@ -171,10 +171,13 @@ label{
 .tiles article:nth-child(3), .tiles article:nth-child(5){
     width: 20%;
 }
-.tiles article{
-    width:20%
+.tiles article:nth-child(4){
+    width: 20%;
 }
 
+#menu{
+    background-color: var(--bg-primary-color);
+}
 
 @media (max-width: 768px) {
     .grid-container {
