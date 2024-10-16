@@ -65,13 +65,7 @@ input, textarea{
     background-color: white !important;
     color:#333 !important;
 }
-#one article:nth-child(2n)::before{
- background-color:#2F4F4F !important;   
- background-color: var(--bg-odd-color) !important;
-}
-#one article:nth-child(2n+1)::before {
-background-color:var(--bg-odd-color);
-}
+
 #header{
     background-color:var(--bg-secondary-color);
 }
@@ -148,6 +142,39 @@ label{
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     object-fit:cover;
 }
+
+
+/*Tiles Home Page */
+
+#one article:nth-child(2n)::before{ 
+    background-color: transparent !important;
+    
+}
+   #one article:nth-child(2n+1)::before {
+   background-color: transparent !important;
+}
+
+
+.tiles article{
+    width: 20%;
+    color: white !important;
+    border:1px solid var(--section-border-color);
+}
+
+.tiles article h3{
+    color: white !important;
+}
+.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
+    width: 20%;
+}
+
+.tiles article:nth-child(3), .tiles article:nth-child(5){
+    width: 20%;
+}
+.tiles article{
+    width:20%
+}
+
 
 @media (max-width: 768px) {
     .grid-container {
