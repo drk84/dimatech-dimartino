@@ -34,38 +34,62 @@
 }
 */
 
+body{
+    background-color:#336699 !important;
+}
+strong{
+  
+}
+
+#main{
+    background-color:#336699 !important;
+}
+input, textarea{
+    background-color: whitesmoke !important;
+    color:#333 !important;
+}
 #one article:nth-child(2n)::before{
  background-color:#2F4F4F !important;   
+ background-color: #A0C0C0 !important;
 }
 #one article:nth-child(2n+1)::before {
-background-color:#003366 !important;
+background-color:#6699CC !important;
 }
 #header{
-    background-color:#7E7A6F !important;
+    background-color:#336699 !important;
 }
 nav{
-    background-color:#2F4F4F !important;
+    background-color:#A0C0C0 !important;
 }
 
 #banner{
-    background-image:none !important;
-    background-color:#2e3450 !important;
+   
+    background-image:none !important; 
+   /*  background-color:#336699 !important; */
 }
 #banner::after{
-    background-color:#7E7A6F !important;
-    width:60%;
+    background-color:#A0C0C0 !important;
+    width:30%;
 }
 
 #two{
     background-color:#2F4F4F;
+    background-color: #336699;
 }
 
 #contact{
-    background-color:#333;
+    background-color:#A0C0C0 !important;
 }
 
 #footer{
-    background-color:#2F4F4F;
+    background-color:#336699;
+}
+.spotlights > section{
+    background-color:#A0C0C0;
+}
+
+.spotlights > section:nth-child(2n){
+    background-color:#336699;
 }
 
 /*Lavori*/
