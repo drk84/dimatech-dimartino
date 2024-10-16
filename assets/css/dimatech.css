@@ -36,7 +36,7 @@
 
 :root{
     --bg-primary-color: white !important;
-    --bg-secondary-color: #f6f6f6   !important;
+    --bg-secondary-color: #A0C0C0   !important;
     --text-color: #4D4D4D  !important;
     --tiles-text-color: #4d4d4d;
     --bg-even-color: #FFFFFF !important;
@@ -84,7 +84,7 @@ section{
 }
 #banner::after{
     background-color:var(--bg-secondary-color) !important;
-    width:22.7%;
+    width:24%;
 }
 
 #two{
