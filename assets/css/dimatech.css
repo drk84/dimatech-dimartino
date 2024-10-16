@@ -34,62 +34,90 @@
 }
 */
 
+:root{
+    --bg-primary-color: white !important;
+    --bg-secondary-color: #f6f6f6   !important;
+    --text-color: #4D4D4D  !important;
+    --tiles-text-color: #4d4d4d;
+    --bg-even-color: #FFFFFF !important;
+    --bg-odd-color: #F0F0F0 !important;
+    --section-border-color: #ccc !important;
+    --btn-shadow-inset-color: #ccc !important;
+}
+.button{
+    box-shadow: inset 0 0 0 2px var(--text-color) !important;
+    color: var(--text-color);
+}
 body{
-    background-color:#336699 !important;
+    background-color: var(--bg-primary-color);
+    color: var(--text-color) !important;
+}
+h1,h2,h3{
+    color:  var(--text-color) !important;
 }
 strong{
-  
+    color: var(--text-color);
 }
-
 #main{
-    background-color:#336699 !important;
+    background-color:var(--bg-primary-color);
 }
 input, textarea{
-    background-color: whitesmoke !important;
+    background-color: white !important;
     color:#333 !important;
 }
 #one article:nth-child(2n)::before{
  background-color:#2F4F4F !important;   
- background-color: #A0C0C0 !important;
+ background-color: var(--bg-odd-color) !important;
 }
 #one article:nth-child(2n+1)::before {
-background-color:#6699CC !important;
+background-color:var(--bg-odd-color);
 }
 #header{
-    background-color:#336699 !important;
+    background-color:var(--bg-secondary-color);
 }
 nav{
-    background-color:#A0C0C0 !important;
+    background-color: var(--bg-secondary-color);
 }
 
+
+section{
+    border-bottom: 1px solid var(--section-border-color) !important;
+}
 #banner{
    
     background-image:none !important; 
    /*  background-color:#336699 !important; */
 }
 #banner::after{
-    background-color:#A0C0C0 !important;
+    background-color:var(--bg-secondary-color) !important;
     width:22.7%;
 }
 
 #two{
     background-color:#2F4F4F;
-    background-color: #336699;
+    background-color: var(--bg-primary-color);
 }
 
 #contact{
-    background-color:#A0C0C0 !important;
+    background-color:var(--bg-secondary-color);
+    
+}
+label{
+    color:var(--text-color) !important;
+}
+#footer{
+    background-color: var(--bg-primary-color);
 }
 
-#footer{
-    background-color:#336699;
+#footer li {
+    color: var(--text-color) !important;
 }
 .spotlights > section{
-    background-color:#A0C0C0;
+    background-color: var(--bg-secondary-color);
 }
 
 .spotlights > section:nth-child(2n){
-    background-color:#336699;
+    background-color: var(--bg-primary-color)
 }
 
 /*Lavori*/
